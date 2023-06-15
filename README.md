@@ -14,6 +14,10 @@ DDL - Data Defination Language
  -- Create Database at a specific location --
 
 <code>SHOW DATABASES LOCATION "user/hive/warehouse/...";</code>
+ 
+ -- Database Description --
+
+<code>DESCRIBE DATABASE <DB_NAME>;</code>
 
 DML - Data Modification Language
 DRL - Data Retrival Language
