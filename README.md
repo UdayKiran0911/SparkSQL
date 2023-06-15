@@ -5,13 +5,15 @@ DDL - Data Defination Language
 
 -- Create Database --
 
-<code>CREATE DATABASE IF NOT EXISTS <DB_NAME></code>;
+<code>CREATE DATABASE IF NOT EXISTS <DB_NAME>;</code>
 
--- List of all available databases in spark - catalog
+-- List of all available databases in spark - catalog --
 
-<code>SHOW DATABASES</code>;
+<code>SHOW DATABASES;</code>
+ 
+ -- List of all available databases in spark - catalog --
+
+<code>SHOW DATABASES;</code>
 
 DML - Data Modification Language
 DRL - Data Retrival Language
-
-
