@@ -1,7 +1,6 @@
 # SparkSQL
- Spark SQL - DDL, DML, DRL
 
-DDL - Data Defination Language
+### DDL - Data Defination Language
 
 -- Create Database --
 
@@ -11,13 +10,13 @@ DDL - Data Defination Language
 
 <code>SHOW DATABASES;</code>
  
- -- Create Database at a specific location --
+-- Create Database at a specific location --
 
 <code>SHOW DATABASES LOCATION "user/hive/warehouse/...";</code>
  
- -- Database Description --
+-- Database Description --
 
 <code>DESCRIBE DATABASE <DB_NAME>;</code>
 
-DML - Data Modification Language
-DRL - Data Retrival Language
+### DML - Data Modification Language
+### DRL - Data Retrival Language
