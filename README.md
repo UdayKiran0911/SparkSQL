@@ -11,9 +11,9 @@ DDL - Data Defination Language
 
 <code>SHOW DATABASES;</code>
  
- -- List of all available databases in spark - catalog --
+ -- Create Database at a specific location --
 
-<code>SHOW DATABASES;</code>
+<code>SHOW DATABASES LOCATION "user/hive/warehouse/...";</code>
 
 DML - Data Modification Language
 DRL - Data Retrival Language
