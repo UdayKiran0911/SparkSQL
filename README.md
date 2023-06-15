@@ -6,7 +6,7 @@ DDL - Data Defination Language
 [Commands]: CREATE DATABASE IF NOT EXISTS <DB_NAME>;
 
 -- List of all available databases in spark - catalog
-[Command]: <code>SHOW DATABASES</code>;
+[Command]: SHOW DATABASES;
 
 DML - Data Modification Language
 DRL - Data Retrival Language
