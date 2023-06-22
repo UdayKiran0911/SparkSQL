@@ -27,5 +27,9 @@
 * _List of all available databases in spark - catalog_ : <code>SHOW DATABASES;</code>
 ---
 ### DML - Data Modification Language
+<table>
+<thead><tr><th>statement</th><th>Query</th><th>Description</th><th>Example</th></tr></thead>
+<tbody><tr><td>statement</td><td>Query</td><td>Description</td><td>Example</td></tr></tbody>
+</table>
 ---
 ### DRL - Data Retrival Language
