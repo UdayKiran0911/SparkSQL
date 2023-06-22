@@ -7,7 +7,13 @@
 <thead><tr><th>statement</th><th>Query</th><th>Description</th><th>Example</th><th>Result</th></tr></thead>
 <tbody>
 <tr>
-<td>Create Database</td><td>CREATE DATABASE IF NOT EXISTS [DB_NAME];</td><td>Creates Database with the given name, only if it is not existing. 
+<td>Create Database</td><td>CREATE DATABASE [DB_NAME];</td><td>Creates Database with the given name. 
+<ul>Note:<ul>
+<li><i>The database is created at the defualt location "user/hive/warehouse/"</i></li>
+</td>
+<td></td></tr>
+<tr>
+<td>Create Database if does't exist already</td><td>CREATE DATABASE IF NOT EXISTS [DB_NAME];</td><td>Creates Database with the given name, only if it is not existing. 
 <ul>Note:<ul>
 <li><i>The database is created at the defualt location "user/hive/warehouse/"</i></li>
 <li><i>If the database exist, it will raise an <code>NamespaceAlreadyExistsException</code> exception</i></li></td><td>CREATE DATABASE IF NOT EXISTS emp;</td>
