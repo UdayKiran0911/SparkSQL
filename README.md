@@ -10,7 +10,7 @@
 <td>Create Database</td><td>CREATE DATABASE IF NOT EXISTS [DB_NAME];</td><td>Creates Database with the given name, only if it is not existing. 
 <ul>Note:<ul>
 <li><i>The database is created at the defualt location "user/hive/warehouse/"</i></li>
-<li><i>! If the database exist, it will raise an <code>NamespaceAlreadyExistsException</code> exception</i></li></td><td>CREATE DATABASE IF NOT EXISTS emp;</td>
+<li><i><span style="color:red;">If the database exist, it will raise an <code>NamespaceAlreadyExistsException</code> exception</span></i></li></td><td>CREATE DATABASE IF NOT EXISTS emp;</td>
 </tr>
 
 
