@@ -49,3 +49,6 @@ alter table events drop constraint datecheck
 -- COMMAND ----------
 
 show create table events
+
+-- COMMAND ----------
+GIT TEST
